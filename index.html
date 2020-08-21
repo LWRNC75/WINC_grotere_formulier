@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>WINC | Groter formulier</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- FORM -->
+    <section>
+      <div class="form">
+        <h2>FOOD SHARE</h2>
+        <hr />
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Name: <br /><input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <br /><input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Phonenumber: <br /><input type="tel" name="phone" /></label>
+          </p>
+          <p>
+            <label>Age: <br /><input type="number" name="age" /></label>
+          </p>
+          <p>
+            <label>Men:
+              <input type="radio" name="radio" />
+            </label>
+            <label>Women:
+              <input type="radio" name="radio" />
+            </label>
+          </p>
+          <p>
+            Favoriete cuisine
+          </p>
+          <p>
+            <label class="cuisine">Frans
+              <input type="checkbox" name="radio" />
+            </label><br>
+            <label class="cuisine">Italiaans
+              <input type="checkbox" name="radio" />
+            </label><br>
+            <label class="cuisine">Spaans
+              <input type="checkbox" name="radio" />
+            </label><br>
+            <label class="cuisine">Arabisch
+              <input type="checkbox" name="radio" />
+            </label>
+          </p>
+          <p>
+            <label>Favourite color: <br /><input class="color" type="color" name="ecolor" value="#00ff00" /></label>
+          </p>
+          <p>
+            <label>Biography: <br /><textarea name="Biography" cols="30" rows="10"></textarea></label>
+          </p>
+          <p>
+            <label>Upload latest recipe: <br /> <input type="file" name="recipe"></label>
+          </p>
+          <p>
+            <label>URL Website: <br /> <input type="url" name="website"></label>
+          </p>
+          <p>
+            <button class="send" type="submit">Send</button>
+            <button class="reset" type="reset">Reset</button>
+          </p>
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
